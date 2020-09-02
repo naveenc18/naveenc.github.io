@@ -14,6 +14,16 @@ body {
 .disp {
 	display: inline-flex;
 }
+#res button {
+ background-color: #6495ED;
+ box-shadow: 50px;
+ cursor: pointer;
+ text-shadow: 50px;
+ border-radius: 12px;   
+}
+#res button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 #header {
     background-image: url("bgpic.jfif");
     background-size: cover;
